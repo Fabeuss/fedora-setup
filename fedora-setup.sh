@@ -20,8 +20,7 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
          6 "Install Waydroid"
          7 "Install flat-remix themes"
          8 "Install Extras - Fonts"
-         9 "Install Nvidia - Install akmod nvidia drivers"
-	 10 "Quit")
+	 9 "Quit")
 
 while [ "$CHOICE -ne 4" ]; do
     CHOICE=$(dialog --clear \
@@ -86,11 +85,7 @@ while [ "$CHOICE -ne 4" ]; do
 	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-roboto google-noto-fonts-common mscore-fonts-all fira-code-fonts
             notify-send "All done" --expire-time=10
            ;;
-        9)  echo "Installing Nvidia Driver Akmod-Nvidia"
-            sudo dnf install -y akmod-nvidia
-            notify-send "All done" --expire-time=10
-	       ;;
-        10)
+        9)
           exit 0
           ;;
     esac
