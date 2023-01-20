@@ -20,7 +20,7 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
          3 "Speed up DNF - This enables fastestmirror, max downloads and deltarpms"
          4 "Enable Flatpak - Enables the Flatpak repo and installs packages"
          5 "Install Software - Installs a bunch of my most used software"
-         6 "Install Oh-My-ZSH"
+         6 "Install Waydroid"
          7 "Install Starship Prompt - INSTALL AFTER Oh-My-Zsh ONLY"
          8 "Install Extras - Themes Fonts and Codecs"
          9 "Install Nvidia - Install akmod nvidia drivers"
@@ -68,12 +68,11 @@ while [ "$CHOICE -ne 4" ]; do
             sudo dnf install -y $(cat dnf-packages.txt)
             notify-send "Software has been installed" --expire-time=10
            ;;
-        6)  echo "Installing Oh-My-Zsh"
-            sudo dnf -y install zsh util-linux-user
-            sh -c "$(curl -fsSL $OH_MY_ZSH_URL)"
-            echo "change shell to ZSH"
-            chsh -s "$(which zsh)"
-            notify-send "Oh-My-Zsh is ready to rock n roll" --expire-time=10
+        6)  echo "Installing Waydroid"
+            sudo dnf copr enable aleasto/waydroid -y
+            sudo dnf install waydroid
+	    sudo systemctl enable --now waydroid-container
+            notify-send "Waydroid has been installed" --expire-time=10
            ;;
         7)  echo "Installing Starship Prompt"
             curl -sS https://starship.rs/install.sh | sh
