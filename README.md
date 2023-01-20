@@ -64,8 +64,6 @@ Dialog must be installed for the menu system to work and as such the script will
     - **deja-dup** - [Easy to use backup tool from the GNOME project](https://wiki.gnome.org/Apps/DejaDup)
 - ## Install Waydroid
   - **Installs Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
-- ## Install Starship Prompt
-  - **Installs the Starship prompt for ZSH** - [A popular cross-shell highly customisable prompt](https://starship.rs/)
 - ## Install Extras
   ### Installs the following theme
     - **gnome-shell-theme-flat-remix** - [Flat Remix Gnome Theme](https://drasite.com/flat-remix-gnome)
