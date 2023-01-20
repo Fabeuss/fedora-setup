@@ -40,6 +40,7 @@ Dialog must be installed for the menu system to work and as such the script will
   - **VideoTrimmer** - [Trim videos quickly](https://flathub.org/apps/details/org.gnome.gitlab.YaLTeR.VideoTrimmer)
   - **Extension Manager** - [Browse, install, and manage GNOME Shell Extensions](https://flathub.org/apps/details/com.mattjakeman.ExtensionManager)
   - **Flatseal** - [Manage Flatpak permissions](https://flathub.org/apps/details/com.github.tchx84.Flatseal)
+  - **ungoogled-chromium** - [A lightweight approach to removing Google web service dependency](https://flathub.org/apps/details/com.github.Eloston.UngoogledChromium)
 - ## Install Software
   ### Installs the following pieces of software (or the applications you specify in dnf-packages.txt)
     - **google-chrome-stable** - [Google Chrome Browser](https://www.google.com/intl/en_uk/chrome/)
