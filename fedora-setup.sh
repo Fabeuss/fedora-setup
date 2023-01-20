@@ -75,10 +75,9 @@ while [ "$CHOICE -ne 4" ]; do
 	    sudo systemctl enable --now waydroid-container
             notify-send "Waydroid has been installed" --expire-time=10
            ;;
-        7)  echo "Installing Starship Prompt"
-            curl -sS https://starship.rs/install.sh | sh
-            echo "eval "$(starship init zsh)"" >> ~/.zshrc
-            notify-send "Starship Prompt Activated" --expire-time=10
+        7)  echo "Installing flat-remix"
+            sudo dnf install -y gnome-shell-theme-flat-remix flat-remix-icon-theme flat-remix-theme
+            notify-send "Flat-remix has been installed" --expire-time=10
            ;;
         8)  echo "Installing Extras"
             sudo dnf groupupdate -y sound-and-video
@@ -92,7 +91,7 @@ while [ "$CHOICE -ne 4" ]; do
             sudo -s dnf install -y fontconfig-font-replacements
             sudo -s dnf install -y fontconfig-enhanced-defaults
 	    sudo dnf update -y
-	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all gnome-shell-theme-flat-remix flat-remix-icon-theme flat-remix-theme terminus-fonts terminus-fonts-console google-noto-fonts-common mscore-fonts-all fira-code-fonts
+	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-noto-fonts-common mscore-fonts-all fira-code-fonts
             notify-send "All done" --expire-time=10
            ;;
         9)  echo "Installing Nvidia Driver Akmod-Nvidia"
