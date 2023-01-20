@@ -21,8 +21,8 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
          4 "Enable Flatpak - Enables the Flatpak repo and installs packages"
          5 "Install Software - Installs a bunch of my most used software"
          6 "Install Waydroid"
-         7 "Install Starship Prompt - INSTALL AFTER Oh-My-Zsh ONLY"
-         8 "Install Extras - Themes Fonts and Codecs"
+         7 "Install flat-remix themes"
+         8 "Install Extras - Fonts"
          9 "Install Nvidia - Install akmod nvidia drivers"
 	 10 "Quit")
 
