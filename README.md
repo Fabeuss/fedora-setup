@@ -35,9 +35,11 @@ Dialog must be installed for the menu system to work and as such the script will
   - **Enables DeltaRPMs**
 - ## Enable Flatpak and Packages
   ### Adds the flatpak repo, updates and installs the following packages (or what you ahve specified in flatpak-packages.txt)
-  - **Microsoft Visual Studio Code** - [Popular free code editor](https://code.visualstudio.com/)
+  - **Obfuscate** - [Censor private information](https://flathub.org/apps/details/com.belmoussaoui.Obfuscate)
   - **Signal Desktop** - [A cross platform secure messaging service](https://signal.org/en/download/)
-  - **Gradience** - [Change the look and feel of Adwaita](https://github.com/GradienceTeam/Gradience)
+  - **VideoTrimmer** - [Trim videos quickly](https://flathub.org/apps/details/org.gnome.gitlab.YaLTeR.VideoTrimmer)
+  - **Extension Manager** - [Browse, install, and manage GNOME Shell Extensions](https://flathub.org/apps/details/com.mattjakeman.ExtensionManager)
+  - **Flatseal** - [Manage Flatpak permissions](https://flathub.org/apps/details/com.github.tchx84.Flatseal)
 - ## Install Software
   ### Installs the following pieces of software (or the applications you specify in dnf-packages.txt)
     - **google-chrome-stable** - [Google Chrome Browser](https://www.google.com/intl/en_uk/chrome/)
