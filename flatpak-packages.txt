@@ -3,3 +3,4 @@ org.gnome.gitlab.YaLTeR.VideoTrimmer
 org.signal.Signal
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
+com.github.Eloston.UngoogledChromium
