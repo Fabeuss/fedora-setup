@@ -62,8 +62,8 @@ Dialog must be installed for the menu system to work and as such the script will
     - **persepolis** - [A fast download manager similar to Internet Download Manager for Windows](https://persepolisdm.github.io/)
     - **libreoffice** - [Free and popular office suite with high compatibility to MS Office formats](https://www.libreoffice.org/)
     - **deja-dup** - [Easy to use backup tool from the GNOME project](https://wiki.gnome.org/Apps/DejaDup)
-- ## Install Oh-My-ZSH
-  - **Installs Oh-My-Zsh** - [A ZSH configuration management framework](https://ohmyz.sh/)
+- ## Install Waydroid
+  - **Installs Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
 - ## Install Starship Prompt
   - **Installs the Starship prompt for ZSH** - [A popular cross-shell highly customisable prompt](https://starship.rs/)
 - ## Install Extras
@@ -80,9 +80,5 @@ Dialog must be installed for the menu system to work and as such the script will
     - **mscore-fonts-all**
     - **fira-code-fonts** - [Google Fira Code Font](https://fonts.google.com/specimen/Fira+Code)
     - **better fonts by dawid** - [Dawid's COPR](https://copr.fedorainfracloud.org/coprs/dawid/better_fonts/)
-  ### Installs the following extras
-    - **Sound and video group**
-    - **libdvdcss**
-    - **gstreamer plugins**
 - ## Install Nvidia
   - Installs the akmod-nvidia driver from the RPMFusion repo's
