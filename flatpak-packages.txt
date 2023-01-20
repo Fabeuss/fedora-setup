@@ -1,3 +1,4 @@
-com.github.GradienceTeam.Gradience
-com.visualstudio.code
+com.belmoussaoui.Obfuscate
+org.gnome.gitlab.YaLTeR.VideoTrimmer
 org.signal.Signal
+com.github.tchx84.Flatseal
