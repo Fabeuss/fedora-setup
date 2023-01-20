@@ -11,3 +11,4 @@ digikam
 kdenlive
 flameshot
 deja-dup
+webp-pixbuf-loader
