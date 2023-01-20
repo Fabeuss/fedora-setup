@@ -75,5 +75,3 @@ Dialog must be installed for the menu system to work and as such the script will
     - **mscore-fonts-all**
     - **fira-code-fonts** - [Google Fira Code Font](https://fonts.google.com/specimen/Fira+Code)
     - **better fonts by dawid** - [Dawid's COPR](https://copr.fedorainfracloud.org/coprs/dawid/better_fonts/)
-- ## Install Nvidia
-  - Installs the akmod-nvidia driver from the RPMFusion repo's
