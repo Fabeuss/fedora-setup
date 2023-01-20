@@ -3,6 +3,7 @@ gnome-extensions-app
 gnome-tweaks
 vlc
 p7zip
+p7zip-plugins
 unzip
 unrar
 gparted
@@ -12,3 +13,4 @@ kdenlive
 flameshot
 deja-dup
 webp-pixbuf-loader
+la-capitaine-cursor-theme
