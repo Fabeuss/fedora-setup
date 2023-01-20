@@ -79,19 +79,14 @@ while [ "$CHOICE -ne 4" ]; do
             sudo dnf install -y gnome-shell-theme-flat-remix flat-remix-icon-theme flat-remix-theme
             notify-send "Flat-remix has been installed" --expire-time=10
            ;;
-        8)  echo "Installing Extras"
-            sudo dnf groupupdate -y sound-and-video
-            sudo dnf install -y libdvdcss
-            sudo dnf install -y gstreamer1-plugins-{bad-\*,good-\*,ugly-\*,base} gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel ffmpeg gstreamer-ffmpeg
-            sudo dnf install -y lame\* --exclude=lame-devel
-            sudo dnf group upgrade -y --with-optional Multimedia
-	    sudo dnf copr enable peterwu/iosevka -y
+        8)  echo "Installing Extra Fonts"
+            sudo dnf copr enable peterwu/iosevka -y
             sudo -s dnf -y copr enable dawid/better_fonts
             sudo dnf update -y
             sudo -s dnf install -y fontconfig-font-replacements
             sudo -s dnf install -y fontconfig-enhanced-defaults
 	    sudo dnf update -y
-	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-noto-fonts-common mscore-fonts-all fira-code-fonts
+	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-roboto google-noto-fonts-common mscore-fonts-all fira-code-fonts
             notify-send "All done" --expire-time=10
            ;;
         9)  echo "Installing Nvidia Driver Akmod-Nvidia"
