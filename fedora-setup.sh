@@ -70,6 +70,7 @@ while [ "$CHOICE -ne 4" ]; do
            ;;
         6)  echo "Installing Waydroid"
             sudo dnf copr enable aleasto/waydroid -y
+	    sudo dnf update -y
             sudo dnf install waydroid
 	    sudo systemctl enable --now waydroid-container
             notify-send "Waydroid has been installed" --expire-time=10
