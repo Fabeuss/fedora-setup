@@ -57,6 +57,8 @@ Dialog must be installed for the menu system to work and as such the script will
     - **flameshot** - [FOSS screenshot software](https://flameshot.org/)
     - **persepolis** - [A fast download manager similar to Internet Download Manager for Windows](https://persepolisdm.github.io/)
     - **deja-dup** - [Easy to use backup tool from the GNOME project](https://wiki.gnome.org/Apps/DejaDup)
+    - **webp-pixbuf-loader** - [webp support for Nautilus](https://github.com/aruiz/webp-pixbuf-loader/)
+    - **la-capitaine-cursor-theme** - [This is an x-cursor theme inspired by macOS and based on KDE Breeze](https://github.com/keeferrourke/capitaine-cursors/)
 - ## Install Waydroid
   - **Installs Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
 - ## Install Extras
