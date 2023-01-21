@@ -77,5 +77,4 @@ Dialog must be installed for the menu system to work and as such the script will
     - **better fonts by dawid** - [Dawid's COPR](https://copr.fedorainfracloud.org/coprs/dawid/better_fonts/)
   ### Installs the following extras
     - **Sound and video group**
-    - **libdvdcss**
     - **gstreamer plugins**
