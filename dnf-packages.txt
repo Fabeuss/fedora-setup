@@ -9,7 +9,6 @@ unzip
 unrar
 gparted
 gimp
-digikam
 kdenlive
 flameshot
 deja-dup
