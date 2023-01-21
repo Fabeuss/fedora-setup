@@ -1,6 +1,7 @@
 btop
 gnome-extensions-app
 gnome-tweaks
+gnome-shell-extension-dash-to-panel
 vlc
 p7zip
 p7zip-plugins
