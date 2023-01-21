@@ -28,7 +28,7 @@ Dialog must be installed for the menu system to work and as such the script will
   - Enables RPM Fusion repositories using the official method from the RPM Fusion website. - [RPM Fusion](https://rpmfusion.org)
   > RPM Fusion provides software that the Fedora Project or Red Hat doesn't want to ship. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
 - ## Update Firmware
-  - **Updates firmware providing you have hardwar that supports it.**
+  - **Updates firmware providing you have hardware that supports it.**
 - ## Speed up DNF
   - **Enables fastest mirror**
   - **Sets max parallel downloads to 10**
