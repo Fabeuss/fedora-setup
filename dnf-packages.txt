@@ -14,3 +14,5 @@ flameshot
 deja-dup
 webp-pixbuf-loader
 la-capitaine-cursor-theme
+cmake
+gettext
