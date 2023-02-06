@@ -16,3 +16,7 @@ webp-pixbuf-loader
 la-capitaine-cursor-theme
 cmake
 gettext
+nemo
+nemo-preview
+nemo-fileroller
+nemo-emblems
