@@ -4,3 +4,11 @@ org.signal.Signal
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.github.Eloston.UngoogledChromium
+com.github.qarmin.czkawka
+com.spotify.Client
+com.sublimetext.three
+dev.geopjr.Collision
+io.github.cboxdoerfer.FSearch
+nl.hjdskes.gcolor3
+org.gnome.World.PikaBackup
+org.inkscape.Inkscape
