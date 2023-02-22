@@ -91,15 +91,6 @@ gnome-shell-extension-background-logo `#Tasteful but nah` \
 ###
 
 
-#Gnome Shell Theming
-gsettings set org.gnome.desktop.interface gtk-theme 'Arc-Dark'
-gsettings set org.gnome.desktop.interface cursor-theme 'Breeze_Snow'
-gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
-gsettings set org.gnome.shell.extensions.user-theme name 'Arc-Dark-solid'
-
-#Set Extensions for gnome
-gsettings set org.gnome.shell enabled-extensions "['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com']"
-
 #Better Font Smoothing
 gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing 'rgba'
 
