@@ -59,6 +59,8 @@ inkscape  `#Working with .svg files` \
 krita  `#Painting done right` \
 lm_sensors `#Show your systems Temparature` \
 'mozilla-fira-*' `#A nice font family` \
+'google-roboto*'
+fira-code-fonts
 papirus-icon-theme `#A quite nice icon theme` \
 gnome-shell-extension-dash-to-panel
 vlc
@@ -79,6 +81,9 @@ nemo
 nemo-preview
 nemo-fileroller
 nemo-emblems
+fish
+util-linux-user
+powerline-fonts
 
 ###
 # Remove some un-needed stuff
