@@ -12,3 +12,4 @@ io.github.cboxdoerfer.FSearch
 nl.hjdskes.gcolor3
 org.gnome.World.PikaBackup
 org.inkscape.Inkscape
+org.gimp.GIMP
