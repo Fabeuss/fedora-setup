@@ -13,7 +13,7 @@ gtkhash-nautilus
 inkscape
 krita
 lm_sensors
-'mozilla-fira-*'
+'mozilla-fira*'
 'google-roboto*'
 fira-code-fonts
 papirus-icon-theme
