@@ -49,14 +49,13 @@ Dialog must be installed for the menu system to work and as such the script will
   - nl.hjdskes.gcolor3
   - org.gnome.World.PikaBackup
   - org.inkscape.Inkscape
+  - org.gimp.GIMP
 - ## Install Software
   ### Installs the following pieces of software (or the applications you specify in dnf-packages.txt)
     - exfat-utils
     - ffmpeg
     - file-roller-nautilus
     - fuse-exfat
-    - fuse-sshfs
-    - gimp
     - gnome-shell-extension-dash-to-dock
     - gnome-shell-extension-user-theme
     - gnome-shell-extension-dash-to-panel
