@@ -35,12 +35,20 @@ Dialog must be installed for the menu system to work and as such the script will
   - **Enables DeltaRPMs**
 - ## Enable Flatpak and install Packages
   ### Adds the flatpak repo, updates and installs the following packages (or what you have specified in flatpak-packages.txt)
-  - **Obfuscate** - [Censor private information](https://flathub.org/apps/details/com.belmoussaoui.Obfuscate)
-  - **Signal Desktop** - [A cross platform secure messaging service](https://signal.org/en/download/)
-  - **VideoTrimmer** - [Trim videos quickly](https://flathub.org/apps/details/org.gnome.gitlab.YaLTeR.VideoTrimmer)
-  - **Extension Manager** - [Browse, install, and manage GNOME Shell Extensions](https://flathub.org/apps/details/com.mattjakeman.ExtensionManager)
-  - **Flatseal** - [Manage Flatpak permissions](https://flathub.org/apps/details/com.github.tchx84.Flatseal)
-  - **ungoogled-chromium** - [A lightweight approach to removing Google web service dependency](https://flathub.org/apps/details/com.github.Eloston.UngoogledChromium)
+  - com.belmoussaoui.Obfuscate
+  - org.gnome.gitlab.YaLTeR.VideoTrimmer
+  - org.signal.Signal
+  - com.github.tchx84.Flatseal
+  - com.mattjakeman.ExtensionManager
+  - com.github.Eloston.UngoogledChromium
+  - com.github.qarmin.czkawka
+  - com.spotify.Client
+  - com.sublimetext.three
+  - dev.geopjr.Collision
+  - io.github.cboxdoerfer.FSearch
+  - nl.hjdskes.gcolor3
+  - org.gnome.World.PikaBackup
+  - org.inkscape.Inkscape
 - ## Install Software
   ### Installs the following pieces of software (or the applications you specify in dnf-packages.txt)
     - **btop** - [CLI based system monitor](https://github.com/aristocratos/btop)
