@@ -40,6 +40,7 @@ while [ "$CHOICE -ne 4" ]; do
 	    sudo dnf upgrade --refresh
             sudo dnf groupupdate -y core
             sudo dnf install -y rpmfusion-free-release-tainted
+	    sudo dnf install -y rpmfusion-nonfree-release-tainted
             sudo dnf install -y dnf-plugins-core
             notify-send "RPM Fusion Enabled" --expire-time=10
            ;;
