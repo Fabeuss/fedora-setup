@@ -66,8 +66,6 @@ Dialog must be installed for the menu system to work and as such the script will
     - krita
     - lm_sensors
     - 'mozilla-fira-*'
-    - 'google-roboto*'
-    - fira-code-fonts
     - papirus-icon-theme
     - vlc
     - p7zip
