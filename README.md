@@ -2,7 +2,7 @@
 
 ## What's all this then?
 
-Fedora-Setup is a personal script I created to help with post install tasks such as tweaks and software installs. It's written in Bash and utilises Dialog for a friendlier menu system.
+Fedora-Setup is a personal script to help with post install tasks such as tweaks and software installs. Written in Bash and utilises Dialog for a friendlier menu system.
 
 Dialog must be installed for the menu system to work and as such the script will check to see if Dialog is installed. If not, it will ask you to install it.
 
@@ -33,7 +33,7 @@ Dialog must be installed for the menu system to work and as such the script will
   - **Enables fastest mirror**
   - **Sets max parallel downloads to 10**
   - **Enables DeltaRPMs**
-- ## Enable Flatpak and Packages
+- ## Enable Flatpak and install Packages
   ### Adds the flatpak repo, updates and installs the following packages (or what you ahve specified in flatpak-packages.txt)
   - **Obfuscate** - [Censor private information](https://flathub.org/apps/details/com.belmoussaoui.Obfuscate)
   - **Signal Desktop** - [A cross platform secure messaging service](https://signal.org/en/download/)
