@@ -18,7 +18,7 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
          4 "Enable Flatpak - Enables the Flatpak repo and installs packages"
          5 "Install Software - Installs a bunch of my most used software"
          6 "Install Waydroid"
-         7 "Install flat-remix themes"
+         7 "Install Librewolf"
          8 "Install Extras - Fonts"
 	 9 "Install media Codecs"
 	 10 "Quit")
@@ -73,9 +73,11 @@ while [ "$CHOICE -ne 4" ]; do
 	    sudo systemctl enable --now waydroid-container
             notify-send "Waydroid has been installed" --expire-time=10
            ;;
-        7)  echo "Installing flat-remix"
-            sudo dnf install -y gnome-shell-theme-flat-remix flat-remix-icon-theme flat-remix-theme
-            notify-send "Flat-remix has been installed" --expire-time=10
+        7)  echo "Installing Librewolf"
+            sudo dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo -y
+	    sudo dnf update -y
+	    sudo dnf install librewolf
+            notify-send "Librewolf has been installed" --expire-time=10
            ;;
         8)  echo "Installing Extra Fonts"
             sudo dnf copr enable peterwu/iosevka -y
