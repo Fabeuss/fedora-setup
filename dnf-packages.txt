@@ -2,8 +2,6 @@ exfat-utils
 ffmpeg
 file-roller-nautilus
 fuse-exfat
-fuse-sshfs
-gimp
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-user-theme
 gnome-shell-extension-dash-to-panel
