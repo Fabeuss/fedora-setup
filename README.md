@@ -90,12 +90,10 @@ Dialog must be installed for the menu system to work and as such the script will
     - util-linux-user
     - powerline-fonts
 - ## Install Waydroid
-  - **Installs Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
+  - **Install Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
+- ## Install Librewolf
+  - **Install Librewolf** - [A custom version of Firefox, focused on privacy, security and freedom](https://librewolf.net/)
 - ## Install Extras
-  ### Installs the following theme
-    - **gnome-shell-theme-flat-remix** - [Flat Remix Gnome Theme](https://drasite.com/flat-remix-gnome)
-    - **flat-remix-theme** - [Flat Remix GTK Theme](https://drasite.com/flat-remix-gtk)
-    - **flat-remix-icon-theme** - [Flate Remix Icon Theme](https://drasite.com/flat-remix)
   ### Along with the following fonts
     - **iosevka-term-fonts** - [Iosevka Font](https://github.com/be5invis/Iosevka)
     - **jetbrains-mono-fonts-all** - [JetBrains Font](https://www.jetbrains.com/lp/mono/)
