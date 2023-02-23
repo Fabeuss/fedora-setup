@@ -94,7 +94,7 @@ Dialog must be installed for the menu system to work and as such the script will
 - ## Install Librewolf
   - **Install Librewolf** - [A custom version of Firefox, focused on privacy, security and freedom](https://librewolf.net/)
 - ## Install Extras
-  ### Along with the following fonts
+  ### Fonts
     - **iosevka-term-fonts** - [Iosevka Font](https://github.com/be5invis/Iosevka)
     - **jetbrains-mono-fonts-all** - [JetBrains Font](https://www.jetbrains.com/lp/mono/)
     - **terminus-fonts** - [Terminus Font](https://terminus-font.sourceforge.net/)
