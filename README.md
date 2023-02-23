@@ -1,4 +1,4 @@
-# Fedora-Setup a Post Install Helper Script / credits to [osiris2600](https://github.com/osiris2600/fedora-setup)
+# Post Install Script for Fedora / credits to [osiris2600](https://github.com/osiris2600/fedora-setup)
 
 ## What's all this then?
 
