@@ -12,8 +12,6 @@ inkscape
 krita
 lm_sensors
 'mozilla-fira*'
-'google-roboto*'
-fira-code-fonts
 papirus-icon-theme
 vlc
 p7zip
