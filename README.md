@@ -59,6 +59,7 @@ Dialog must be installed for the menu system to work and as such the script will
     - gnome-shell-extension-dash-to-dock
     - gnome-shell-extension-user-theme
     - gnome-shell-extension-dash-to-panel
+    - gnome-shell-extension-appindicator
     - gnome-tweaks
     - gnome-extensions-app
     - gtkhash-nautilus
