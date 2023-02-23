@@ -34,7 +34,7 @@ Dialog must be installed for the menu system to work and as such the script will
   - **Sets max parallel downloads to 10**
   - **Enables DeltaRPMs**
 - ## Enable Flatpak and install Packages
-  ### Adds the flatpak repo, updates and installs the following packages (or what you ahve specified in flatpak-packages.txt)
+  ### Adds the flatpak repo, updates and installs the following packages (or what you have specified in flatpak-packages.txt)
   - **Obfuscate** - [Censor private information](https://flathub.org/apps/details/com.belmoussaoui.Obfuscate)
   - **Signal Desktop** - [A cross platform secure messaging service](https://signal.org/en/download/)
   - **VideoTrimmer** - [Trim videos quickly](https://flathub.org/apps/details/org.gnome.gitlab.YaLTeR.VideoTrimmer)
