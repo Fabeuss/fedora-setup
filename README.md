@@ -51,22 +51,45 @@ Dialog must be installed for the menu system to work and as such the script will
   - org.inkscape.Inkscape
 - ## Install Software
   ### Installs the following pieces of software (or the applications you specify in dnf-packages.txt)
-    - **btop** - [CLI based system monitor](https://github.com/aristocratos/btop)
-    - **discord** - [The popular VoIP, IM and Social platform](https://discord.com)
-    - **gnome-extensions-app** - Gnome extension management application
-    - **gnome-tweaks** - Gnome shell tweak tool
-    - **vlc**  - [A cross platform multimedia player](https://www.videolan.org/)
-    - **p7zip** - [High compression archiving application](https://p7zip.sourceforge.net/)
-    - **blender** - [FOSS 3d creation suite](https://www.blender.org/)
-    - **gimp** - [GNU Image Manipulation Program](https://gimp.org)
-    - **digikam** - [Professional photo management application](https://www.digikam.org/)
-    - **kdenlive** - [FOSS cross platform video editing application](https://kdenlive.org/en/)
-    - **transmission** - [A fast simple and free Bittorrent client](https://transmissionbt.com/)
-    - **flameshot** - [FOSS screenshot software](https://flameshot.org/)
-    - **persepolis** - [A fast download manager similar to Internet Download Manager for Windows](https://persepolisdm.github.io/)
-    - **deja-dup** - [Easy to use backup tool from the GNOME project](https://wiki.gnome.org/Apps/DejaDup)
-    - **webp-pixbuf-loader** - [webp support for Nautilus](https://github.com/aruiz/webp-pixbuf-loader/)
-    - **la-capitaine-cursor-theme** - [This is an x-cursor theme inspired by macOS and based on KDE Breeze](https://github.com/keeferrourke/capitaine-cursors/)
+    - exfat-utils
+    - ffmpeg
+    - file-roller-nautilus
+    - fuse-exfat
+    - fuse-sshfs
+    - gimp
+    - gnome-shell-extension-dash-to-dock
+    - gnome-shell-extension-user-theme
+    - gnome-shell-extension-dash-to-panel
+    - gnome-tweaks
+    - gnome-extensions-app
+    - gtkhash-nautilus
+    - inkscape
+    - krita
+    - lm_sensors
+    - 'mozilla-fira-*'
+    - 'google-roboto*'
+    - fira-code-fonts
+    - papirus-icon-theme
+    - vlc
+    - p7zip
+    - p7zip-plugins
+    - unzip
+    - unrar
+    - gparted
+    - gimp
+    - kdenlive
+    - deja-dup
+    - webp-pixbuf-loader
+    - la-capitaine-cursor-theme
+    - cmake
+    - gettext
+    - nemo
+    - nemo-preview
+    - nemo-fileroller
+    - nemo-emblems
+    - fish
+    - util-linux-user
+    - powerline-fonts
 - ## Install Waydroid
   - **Installs Waydroid** - [A container-based approach to boot a full Android system](https://waydro.id/)
 - ## Install Extras
