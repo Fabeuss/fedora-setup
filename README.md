@@ -56,17 +56,12 @@ Dialog must be installed for the menu system to work and as such the script will
     - ffmpeg
     - file-roller-nautilus
     - fuse-exfat
-    - gnome-shell-extension-dash-to-dock
-    - gnome-shell-extension-user-theme
-    - gnome-shell-extension-dash-to-panel
-    - gnome-shell-extension-appindicator
     - gnome-tweaks
     - gnome-extensions-app
     - gtkhash-nautilus
     - inkscape
     - krita
     - lm_sensors
-    - 'mozilla-fira-*'
     - papirus-icon-theme
     - vlc
     - p7zip
@@ -105,3 +100,4 @@ Dialog must be installed for the menu system to work and as such the script will
   ### Installs the following extras
     - **Sound and video group**
     - **gstreamer plugins**
+- ## Tweaks Gnome-Shell (gsettings)
