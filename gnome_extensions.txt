@@ -1,0 +1,16 @@
+arcmenu@arcmenu.com
+argos@pew.worldwidemann.com
+Battery-Health-Charging@maniacx.github.com
+bluetooth-quick-connect@bjarosze.gmail.com
+blur-my-shell@aunetx
+clipboard-indicator@tudmotu.com
+custom-hot-corners-extended@G-dH.github.com
+dash-to-dock@micxgx.gmail.com
+dash-to-panel@jderose9.github.com
+ding@rastersoft.com
+gestureImprovements@gestures
+hide-universal-access@akiirui.github.io
+nightthemeswitcher@romainvigier.fr
+tiling-assistant@leleat-on-github
+user-theme@gnome-shell-extensions.gcampax.github.com
+Vitals@CoreCoding.com
