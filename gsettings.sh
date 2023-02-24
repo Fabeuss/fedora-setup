@@ -17,7 +17,16 @@ gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
 gsettings set org.gnome.desktop.calendar show-weekdate true
 gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
 gsettings set org.gnome.shell.overrides workspaces-only-on-primary false
+gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
+gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide-mode 'ALL_WINDOWS'
+gsettings set org.gtk.Settings.FileChooser sort-directories-first true
 
 # Set new windows centered
 gsettings set org.gnome.mutter center-new-windows true
 
+#Gnome Night Light (Like flux/redshift)
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-to 7.0
+gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-from 19.0
