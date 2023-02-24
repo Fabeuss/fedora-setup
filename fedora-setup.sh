@@ -21,7 +21,8 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
          7 "Install Librewolf"
          8 "Install Extras - Fonts"
 	 9 "Install media Codecs"
-	 10 "Quit")
+	 10 "Gnome tweaks"
+	 11 "Quit")
 
 while [ "$CHOICE -ne 4" ]; do
     CHOICE=$(dialog --clear \
@@ -95,7 +96,11 @@ while [ "$CHOICE -ne 4" ]; do
             sudo dnf install -y lame\* --exclude=lame-devel
             sudo dnf group upgrade -y --with-optional Multimedia; exec $SHELL;
            ;;
-	10)
+	10)  echo "Tweaking Gnome Shell"
+            source 'gsettings.sh'; exec $SHELL;
+            notify-send "Gnome Shell has now been tweaked" --expire-time=10
+           ;;
+	11)
           exit 0
           ;;
     esac
