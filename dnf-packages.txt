@@ -4,7 +4,6 @@ file-roller-nautilus
 fuse-exfat
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-user-theme
-gnome-shell-extension-dash-to-panel
 gnome-shell-extension-appindicator
 gnome-tweaks
 gnome-extensions-app
@@ -12,7 +11,6 @@ gtkhash-nautilus
 inkscape
 krita
 lm_sensors
-'mozilla-fira*'
 papirus-icon-theme
 vlc
 p7zip
