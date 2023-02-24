@@ -7,7 +7,6 @@ gnome-shell-extension-user-theme
 gnome-shell-extension-appindicator
 gnome-tweaks
 gnome-extensions-app
-gtkhash-nautilus
 inkscape
 krita
 lm_sensors
@@ -24,7 +23,6 @@ deja-dup
 webp-pixbuf-loader
 la-capitaine-cursor-theme
 cmake
-gettext
 nemo
 nemo-preview
 nemo-fileroller
