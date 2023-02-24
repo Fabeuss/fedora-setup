@@ -21,6 +21,10 @@ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide-mode 'ALL_WINDOWS'
 gsettings set org.gtk.Settings.FileChooser sort-directories-first true
+gsettings set org.gnome.nautilus.preferences show-hidden-files true
+gsettings set org.gnome.nautilus.preferences sort-directories-first true
+gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+
 
 # Set new windows centered
 gsettings set org.gnome.mutter center-new-windows true
