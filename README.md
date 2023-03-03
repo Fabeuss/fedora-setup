@@ -32,7 +32,6 @@ Dialog must be installed for the menu system to work and as such the script will
 - ## Speed up DNF
   - **Enables fastest mirror**
   - **Sets max parallel downloads to 10**
-  - **Enables DeltaRPMs**
 - ## Enable Flatpak and install Packages
   ### Adds the flatpak repo, updates and installs the following packages (or what you have specified in flatpak-packages.txt)
   - com.belmoussaoui.Obfuscate
