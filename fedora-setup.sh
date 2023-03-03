@@ -53,9 +53,8 @@ while [ "$CHOICE -ne 4" ]; do
            ;;
         3)  echo "Speeding Up DNF"
             echo 'fastestmirror=1' | sudo tee -a /etc/dnf/dnf.conf
-            echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
-            echo 'deltarpm=true' | sudo tee -a /etc/dnf/dnf.conf; exec $SHELL;
-            notify-send "Your DNF config has now been amended" --expire-time=10
+            echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf; exec $SHELL;
+            notify-send "Speeding Up DNF completed" --expire-time=10
            ;;
         4)  echo "Enabling Flatpak"
             flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
