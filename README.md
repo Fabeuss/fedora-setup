@@ -20,7 +20,7 @@ Dialog must be installed for the menu system to work and as such the script will
 
 ## Screenshot
 
-![Screenshot](fedora-setup-screen.png)
+![Screenshot](fedora-setup-screenshot.png)
 
 # Options
 
