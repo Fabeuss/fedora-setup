@@ -14,7 +14,7 @@ fi
 
 OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific version"
          2 "Update Firmware - If your system supports fw update delivery"
-         3 "Speed up DNF - This enables fastestmirror, max downloads and deltarpms"
+         3 "Speed up DNF - This enables fastestmirror and max downloads"
          4 "Enable Flatpak - Enables the Flatpak repo and installs packages"
          5 "Install Software - Installs a bunch of my most used software"
          6 "Install Waydroid"
