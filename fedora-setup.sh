@@ -86,7 +86,7 @@ while [ "$CHOICE -ne 4" ]; do
             sudo -s dnf install -y fontconfig-font-replacements
             sudo -s dnf install -y fontconfig-enhanced-defaults
 	    sudo dnf update -y
-	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-roboto google-noto-fonts-common mscore-fonts-all fira-code-fonts; exec $SHELL;
+	    sudo dnf install -y iosevka-term-fonts jetbrains-mono-fonts-all terminus-fonts terminus-fonts-console google-roboto* google-noto-fonts-common mscore-fonts-all fira-code-fonts; exec $SHELL;
             notify-send "All done" --expire-time=10
            ;;
         9)  echo "Installing media codecs"
